@@ -81,7 +81,7 @@ public class Generador {
 	}
 
 	public String hacerPropiedades() {
-		p.escribirPropiedades(numEstrofas, numEstrofas);
+		p.escribirPropiedades(numEstrofas, numFrasesPorEstrofas);
 		return "Se leyeron estas propiedas: " + "\n" + p.leerPropiedades();
 	}
 }
